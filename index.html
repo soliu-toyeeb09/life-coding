@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/5a505f0890.js" crossorigin="anonymous"></script>
+    <title>Mixlr</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            height: 70px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 40px;
+            justify-content: end;
+        }
+
+        .icon {
+            display: none;
+        }
+
+        @media screen and (max-width:850px) {
+            nav {
+                background-color: rgb(251, 251, 251);
+                height: 70px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            ul {
+                display: none;
+            }
+
+            .icon {
+                display: block;
+            }
+        }
+
+        .heading1 {
+            margin: auto;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 49.176px;
+            /* line-height: 61.47px;
+            vertical-align:baseline;
+            letter-spacing:normal;
+            word-spacing:0px;
+            margin:0px 0px 8px;
+            padding:0px;
+            font-weight: 400;
+            font-stretch: 100%; */
+            font-weight: 350;
+        }
+
+        .h2 {
+            margin: auto;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 25px;
+            font-weight: 400;
+        }
+
+        .motherdiv {
+            display: flex;
+            justify-content: space-around;
+            margin-left: 5%;
+        }
+
+        .word,
+        .image {
+            /* border: 1px solid black; */
+            width: 40%;
+            height: 350px;
+        }
+
+        .word1 {
+            font-size: 48px;
+            line-height: 50px;
+        }
+
+        .ooo {
+            height: 400px;
+        }
+        .oo{
+            height: 400px;
+        }
+
+        @media screen and (max-width:850px) {
+            .motherdiv {
+                display: block;
+            }
+
+            .ooo {
+                margin-top: 80px;
+                width: 280%;
+                margin-left: -20%;
+            }
+
+            .word {
+                width: 100%;
+            }
+            .oo{
+                margin-top: 80px;
+                width: 280%;
+                margin-left: -20%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <a class="navbar-brand" href="#">
+                    <img src="./images/Screenshot 2024-11-21 101202.png" alt="Logo" width="100" height="40"
+                        class="d-inline-block align-text-middle">
+                </a>
+            </div>
+            <div>
+                <ul>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: black;">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black;">Listen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black;">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black;">Login</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            style="background-color:white; color: black; font-weight: 600; padding: 5px 10px 5px 10px;  text-decoration: none; border-radius: 20px; border: 0.5px solid;"
+                            class="button">Get
+                            started</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="icon"><i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <br><br>
+    <section>
+        <div class="heading1">
+            <p>Get your audio <br>to your audience</p>
+            <p class="h2">Professional tools for audio, made simple</p>
+            <button type="button" class="btn btn-danger"
+                style="border-radius: 30px; width: 15%; padding: 10px; background-color: red;">
+                <h3>View Plans</h3>
+            </button>
+        </div>
+    </section><br><br>
+    <section>
+        <div class="motherdiv">
+            <div class="word">
+                <p class="word1">Our broadcast <br> apps with your <br> audio setup</p>
+                <p>Reach an audience as big as you need. Connect, chat and engage with listeners all over the world with the confidence that everyone will be able to connect to your live stream. Mixlr has dedicated servers set aside, allowing you to scale your broadcasts as big as you need without extra costs.</p>
+            </div>
+            <div class="image">
+                <img src="./images/list-feature-audio-setup-1408-e8c2aecbf22ae9db1ec8bc6f056ae2f6028edda5720ecef0a7a2250c4f94d6c3.webp"
+                    alt="" class="ooo">
+            </div>
+        </div><br><br>
+        <div class="motherdiv">
+            <div class="image">
+                <img src="./images/list-feature-audience-1408-05728c3569fdabb2cc994c909b55b320e8d0bb11fa52574aa0361e619a6c8ed9.webp"
+                    alt="" class="oo">
+            </div>
+            <div class="word">
+                <p class="word1">No limits to
+                    audience size</p>
+                <p>Plug and play your audio into the mobile or desktop broadcast app. Keep it simple with one audio
+                    source for mobile. Or use the desktop app for a mix of audio input and a playlist of sounds. Your
+                    audio, done your way.</p>
+            </div>
+            
+        </div><br><br>
+        <div class="motherdiv">
+            <div class="word">
+                <p class="word1">Your own channel, a custom website for audio</p>
+                <p>This is where all your audio is hosted. People can listen live while chatting or play back recordings. The custom players are ad-free, feature audio visuals and an immersive full-screen experience. Brand your channel with a logo, custom background and personalized URL. It's your site for your audio.</p>
+            </div>
+            <div class="image">
+                <img src="./images/list-feature-personalise-1408-152306bd700fbae5a81f3f727cb3db712421d33885bb3323a6d1c290f61eddd3.webp"
+                    alt="" class="ooo">
+            </div>
+            
+            
+        <!-- <div class="card mb-5" style="max-width: 1500px;">
+            <div class="row g-0">
+                <div class="col-md-9">
+                    <div class="card-body">
+                      <h5 class="card-title">Our broadcast apps with your audio setup</h5>
+                      <p class="card-text">Plug and play your audio into the mobile or desktop broadcast app. Keep it simple with one audio source for mobile. Or use the desktop app for a mix of audio input and a playlist of sounds. Your audio, done your way.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+        <!-- </div>
+                  </div>
+              <div class="col-md-1">
+                <img src="./images/list-feature-audio-setup-1408-e8c2aecbf22ae9db1ec8bc6f056ae2f6028edda5720ecef0a7a2250c4f94d6c3.webp" class="img-fluid rounded-start" alt="..." style="height: 500px; max-width: 800%;">
+              </div>
+              
+            </div>
+          </div> -->
+    </section>
+    <section></section>
+</body>
+
+</html>
